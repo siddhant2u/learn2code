@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    font-family: "Avenir Next";
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+header {
+    height: 55px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+
+li {
+    list-style: none;
+  }
+
+.header-logo {
+    color: white;
+    font-size:35px;
+    font: bold;
+    float:left;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:40px;
+  }
+
+.header-list li {
+    color:white;
+    text-align:center;
+    float:right;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    font-size: 15px;
+  }
+
+
+.heading h1{
+    font-size:150px;
+    margin: 0 auto;
+    text-shadow: black;
+    font-weight: 800;
+    }
+    
+.heading h2{
+    font-size:50px;
+    margin: 0 auto;
+  }
+
+.heading  {
+    background-image: url("back.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 130px 0 90px 0;
+    color: white;
+    letter-spacing: 8px;
+}
+
+main{
+    padding-top:20px;
+    padding-bottom:50px;
+    padding-right:100px;
+    padding-left:100px;
+    background-color:rgba(0, 0, 255, 0.075);
+    height:1500px;
+  }
+
+.home{
+      text-align:center;
+      height:250px;
+      padding-top:10px;
+      padding-bottom:40px;
+      padding-right:300px;
+      padding-left:300px;
+}
+
+.home-icon{
+      float:left;
+      width:50%;
+}
+
+.home-icon:hover{
+      background-color:rgba(0, 0, 255, 0.425);
+}
+
+.home-icon h2{
+    font-size:25px;
+}
+
+.lessons{
+    height:300px;
+    text-align:center;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.lessons h1{
+    font-size:50px;
+    text-align:center;
+    background-color:rgb(255, 8, 8);
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+
+.lesson-list{
+    float:left;
+    width: 25%;
+    padding-bottom:30px;
+}
+
+.lesson-icon{
+    padding:5px;
+}
+
+.lesson-icon p{
+    font-size:30px;
+    color:rgb(10, 1, 1);
+    font:courier;
+}
+
+
+.split{
+    width:50%;
+    float:left;
+}
+
+.quizz{
+    background-color:rgb(233, 135, 135);
+    text-align:center;
+    height:450px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:2px solid black;
+}
+
+.quizz h2{
+    font-size:50px;
+}
+
+.games{
+    background-color:rgb(144, 144, 199);
+    text-align:center;
+    height:450px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:2px solid black;
+}
+
+.games h2{
+    font-size:50px;
+}
+
+.games h3{
+    font-size:30px
+}
+
+.quizz h3{
+    font-size:30px
+}
+
+.quizz p{
+    font-size:25px;
+    color:rgb(2, 2, 75);
+}
+
+.games p{
+    font-size:25px;
+    color:rgb(2, 2, 75);
+}
+
+.games:hover{
+    background-color:rgb(194, 240, 29);
+}
+
+.quizz:hover{
+    background-color:rgb(194, 240, 29);
+}
+
+.button {
+    border-bottom: 1px solid #eee;
+    padding: 40px;
+    text-align: center;
+  }
+  
+.btn {
+    padding: 20px 40px;
+    background-color: #ce1a1a;
+    cursor: pointer;
+    box-shadow: 0 7px #8d0909;
+    color:white;
+  }
+  
+.btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color:#c5baec;
+    color:#fff;
+    height:120px;
+}
+
+.footer-logo {
+    color: rgb(21, 7, 27);
+    font-size:50px;
+    font: bold;
+    float: left;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:40px;
+  }
+
+.footer-list {
+    float: right;
+}
+
+.footer-list p{
+    color: black;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-right:30px;
+}
+
+
+
+
+
